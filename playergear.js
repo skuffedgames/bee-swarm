@@ -961,9 +961,6 @@ window.playerGear={
             
             applyStats:function(stats,player){
 
-                stats.bluePollen*=10000
-                stats.whitePollen*=10000
-                stats.redPollen*=10000
                 stats.capacity+=200
             },
             desc:'A small bag.<br><br>+200 capacity',
